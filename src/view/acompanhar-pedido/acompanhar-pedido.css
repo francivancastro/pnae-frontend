@@ -1,0 +1,19 @@
+
+.meuspedidos, .acmp {
+	color: #515151;
+	font-family: "Trebuchet MS", Arial, Tahoma, sans-serif;
+}
+
+img.alignleft {
+	float: left;
+	padding: 0px 20px 0px 0px;
+}
+
+.faixa {
+	background-color: rgb(248, 250, 251);
+}
+
+.faixafrase {
+	color: #515151;
+	font-family: "Trebuchet MS", Arial, Tahoma, sans-serif;
+}

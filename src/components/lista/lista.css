@@ -1,0 +1,35 @@
+.card_teste2{
+  background-color:#fff;
+  height:200px; 
+}
+
+.container_card{
+  margin-block-end: -6.5%;
+  margin-top: -15%;
+}
+
+.card-nome, .card-valor, .card-local {
+  font-family: "Trebuchet MS", Arial, Tahoma, sans-serif;
+}
+
+.verpor{
+  margin-left: 52%;
+}
+
+.card_box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 25px;
+  padding: 10px 30px;
+  background: rgb(243, 243, 243);
+}
+
+.img_card img {
+  width: 200px;
+}
+
+.text_info {
+  width: 300px;
+  margin: 0 10px;
+}

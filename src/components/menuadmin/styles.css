@@ -1,0 +1,16 @@
+.navbar {
+    margin-left: -1%;
+}
+
+.main-nav-active{
+    color: rgb(71, 71, 71) !important;
+}
+.nav-item a{
+    color: rgb(145, 145, 145);
+    transition: .3s ease-in;
+}
+
+.nav-item a:hover{
+    color: rgb(71, 71, 71);
+    text-decoration: none;
+}

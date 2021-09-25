@@ -1,0 +1,15 @@
+a.morebtnfz{
+	border: none;
+	outline: none;
+	color: #fff;
+	font-size: 1.4em;
+	font-family: "Trebuchet MS", Arial, Tahoma, sans-serif;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-o-border-radius: 20px;
+	text-decoration:none;
+}
+a.morebtnfz:hover {
+	background:#E24425;
+}

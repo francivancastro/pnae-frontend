@@ -1,0 +1,17 @@
+.card_teste2{
+  background-color:#fff;
+  height:200px; 
+}
+
+.container_card{
+  margin-block-end: -6.5%;
+  margin-top: -15%;
+}
+
+.card-nome, .card-valor, .card-local {
+  font-family: "Trebuchet MS", Arial, Tahoma, sans-serif;
+}
+
+.verpor{
+  margin-left: 52%;
+}

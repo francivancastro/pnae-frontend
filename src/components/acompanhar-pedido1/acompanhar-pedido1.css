@@ -1,0 +1,29 @@
+.card {
+	background-color: #fff;
+	border: 1px solid #fff;
+}
+.order {
+	background: url(../../view/images/cuisine3.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 120px;
+	height: 120px;
+	margin-top: 2%;
+}
+
+.entrega {
+	font-weight: 700;
+    font-size: 25px;
+    color: rgb(25, 42, 50);
+}
+
+.t3{
+    font-family: "proximanova", sans-serif;
+}
+
+.price {
+    line-height: 20px;
+    font-size: 20px;
+    font-weight: 1000;
+    color: rgb(25, 42, 50);
+}

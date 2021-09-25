@@ -1,0 +1,118 @@
+.formCad {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .inputContent {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-bottom: 25px;
+  }
+  
+  .labelTitle {
+    font-weight: bold;
+  }
+  
+  #titleCad{
+    margin-bottom: 15px;
+  }
+  input[type="text"],  input[type="email"], input[type="password"], input[type="number"]{
+    background-color: transparent;
+    font: 1.1em sans-serif;
+    margin: 5px;
+    padding: 10px;
+    border-color: transparent;
+    border-bottom-color: rgb(0, 0, 0);
+    cursor: text;
+  }
+  input{
+    outline: none;
+  }
+  
+  input[type="text"]:hover,  input[type="email"]:hover, input[type="password"]:hover, input[type="number"]{
+    border-bottom-color:  #33993a;
+  }
+  
+  
+  .button {
+    margin-top: 50px;
+    height: 50px;
+    width: 150px;
+    margin-right: 25px;
+    color: white;
+    text-align: center;
+    border-color: transparent;
+    border-radius: 3%;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  #salvar {
+    background-color:  #33993a;
+  }
+  #salvar:hover {
+    background-color:  #60d668;
+  }
+  
+  #voltar {
+    background-color: rgba(2, 2, 8, 0.52);
+  }
+  #voltar:hover {
+    background-color: rgba(2, 2, 8, 0.411);
+  }
+  
+  #divButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  #produtor-cooperativa {
+    -webkit-appearance: none;  
+    -moz-appearance: none; 
+    appearance: none; 
+    background-color: transparent;
+    font: 1.1em sans-serif;
+    margin: 5px;
+    padding: 10px;
+    border-width: 2px;
+    border-color: transparent;
+    border-bottom-color: rgb(0, 0, 0);
+    cursor: pointer;
+    outline: none;
+  }
+  #produtor-cooperativa:hover {
+    border-bottom-color:  #33993a;
+    background-color: rgba(29, 27, 27, 0.116);
+  }
+
+  /* para imagem
+
+/* Área da imagem */
+#imageAreaMain {
+  display: flex;
+  height: 150px;
+  width: 150px;
+  margin-bottom: 25px;
+  padding-top: 5px;
+  
+}
+
+/* Esconde o input */
+#selectImage {
+  display: none;
+}
+
+/* Aparência que terá o seletor de arquivo */
+#selectArea{
+  background-color: transparent;
+  cursor: pointer;
+}
+
+#selectArea img {
+  height: 150px;
+  width: 150px;
+}

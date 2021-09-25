@@ -1,0 +1,228 @@
+/*.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 593px;
+}*/
+.register {
+    padding: 2em 0 3em 0;
+}
+.register-top-grid h3 {
+    padding-bottom: 10px;
+    font-size: 1.3em;
+    color: #000000;
+    margin: 0;
+    font-weight: 600;
+}
+.main {
+    background: #F8F8F8;
+}
+h3 {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.register-top-grid div {
+    width: 48%;
+    float: left;
+    margin: 10px 0;
+}
+.fadeInLeft {
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+}
+.fadeInRight {
+    -webkit-animation-name: fadeInRight;
+    animation-name: fadeInRight;
+}
+.checkbox input[type="checkbox"] {
+    float: left;
+    margin-left: -20px;
+}
+.news-letter {
+    color: #555;
+    font-weight: 600;
+    font-size: 0.85em;
+    margin-bottom: 1em;
+    display: block;
+    text-transform: uppercase;
+    clear: both;
+    margin-left: 2%;
+}
+a {
+    text-decoration: none;
+    background: transparent;
+}
+.checkbox:last-child {
+    margin-bottom: 0;
+}
+.checkbox {
+    float: left;
+    position: relative;
+    font-size: 0.85em;
+    color: #555;
+    display: block;
+    min-height: 20px;
+    cursor: pointer;
+}
+.checkbox input {
+    position: absolute;
+    left: -9999px;
+}
+input[type="checkbox"] {
+    margin: 4px 0 0;
+    line-height: normal;
+    box-sizing: border-box;
+    padding: 0;
+}
+.checkbox i {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    outline: none;
+    margin-right: -20%;
+    border: 2px solid #D2CF99;
+}
+.checkbox input:checked + i:after {
+    opacity: 1;
+    transition: opacity 0.1s;
+    content: '';
+    background: url(../../view/images/tick1.png) no-repeat 1px 2px;
+    top: -1px;
+    left: -1px;
+    width: 15px;
+    height: 15px;
+    font: normal 12px/16px FontAwesome;
+    text-align: center;
+}
+.checkbox input + i:after {
+    position: absolute;
+    transition: opacity 0.1s;
+}
+*:after {
+    box-sizing: border-box;
+}
+i {
+    font-style: italic;
+}
+div.register-bottom-grid {
+    margin-top: 3em;
+}
+* {
+    box-sizing: border-box;
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+.register-bottom-grid div {
+    width: 48%;
+    float: left;
+    margin: 10px 0;
+}
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.register-top-grid span {
+    font-size: 1em;
+    color: #555;
+    padding-bottom: 0.2em;
+    display: block;
+    text-transform: uppercase;
+}
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    cursor: default;
+}
+.register-top-grid input[type="text"] {
+    padding: 0.3em;
+    border: 1px solid #EEE;
+    outline-color: #FF5B36;
+    width: 96%;
+    font-size: 1em;
+}
+input {
+    font-family: inherit;
+    line-height: inherit;
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-appearance: textfield;
+    background-color: -internal-light-dark-color(white, black);
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+}
+.register-bottom-grid h3 {
+    padding-bottom: 10px;
+    font-size: 1.3em;
+    color: #000000;
+    margin: 0;
+    font-weight: 600;
+}
+ .register-bottom-grid span {
+    font-size: 1em;
+    color: #555;
+    padding-bottom: 0.2em;
+    display: block;
+    text-transform: uppercase;
+}
+.register-bottom-grid input[type="password"] {
+    padding: 0.3em;
+    border: 1px solid #EEE;
+    outline-color: #FF5B36;
+    width: 96%;
+    font-size: 1em;
+}
+
+.register-button {
+    margin-top: 1em;
+    text-align: right;
+}
+
+.register-button input[type="submit"] {
+    padding: 0.3em 1.3em;
+    margin: 1% 0 1% 1%;
+    background: #206925;
+    color: #FFF;
+    font-size: 1.2em;
+    display: inline-block;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+}
+
+.register-button input[type="reset"] {
+    padding: 0.3em 1.3em;
+    margin: 1%;
+    background: #A0A0A0;
+    color: #FFF;
+    font-size: 1.2em;
+    display: inline-block;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+}
+
+.clearfix:after {
+    clear: both;
+}

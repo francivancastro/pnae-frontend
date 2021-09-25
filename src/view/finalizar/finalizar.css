@@ -1,0 +1,18 @@
+.img-section {
+    position: relative;
+	width: 900px;
+	padding-bottom: 8%;
+	padding-top: 18%;
+	margin-left: 10%;;
+	background: url(../../view/images/pay.png) no-repeat;
+}
+.pagar{
+	font-size: 35px;
+	color:#494949;
+	margin-left: 25%;
+}
+.enviar{
+	font-size: 25px;
+	color: #494949;
+	margin-left: 10%
+}

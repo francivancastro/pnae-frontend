@@ -1,0 +1,71 @@
+
+.status-atual{
+    background:green;
+    margin:1px;
+    color:#fff;
+}
+
+
+.status-cancelado{
+    background:red;
+    margin:1px;
+    color:#fff;
+}
+
+
+.status-atual:hover{
+    background:green;
+    margin:1px;
+    color:#fff;
+}
+
+
+
+.status-desativado{
+    background:#ccc;
+    margin:1px;
+    color:#999;
+}
+
+.status-desativado:hover{
+    background:#ccc;
+    margin:1px;
+    color:#999;
+}
+
+.t {
+    background-color: rgb(248, 250, 251);
+    border: 1px solid rgb(226, 206, 226);
+}
+.ns {
+    font-size: 20px;
+    color: #515151;
+    font-family: "Trebuchet MS", Arial, Tahoma, sans-serif;
+}
+.num {
+    color: #515151;
+	font-family: "Trebuchet MS", Arial, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    
+}
+.date {
+    font-weight: 700;
+    font-size: 18px;
+    color: #515151;
+	font-family: "Trebuchet MS", Arial, Tahoma, sans-serif;
+}
+
+.card-footer img {
+    opacity: 0.3
+}
+
+.card-footer h5 {
+    font-size: 1.1em;
+    color: black;
+    cursor: pointer
+} 
+
+.border-line {
+    border-right: 1px solid rgb(226, 206, 226);
+}

@@ -1,0 +1,20 @@
+.contact-head{
+    padding-top: 10%;
+}
+.contact-head h3 {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: inherit;
+    line-height: 1.1;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.contact_top {
+    padding-bottom: 13%;  
+}
